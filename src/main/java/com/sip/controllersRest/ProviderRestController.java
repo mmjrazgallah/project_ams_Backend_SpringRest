@@ -100,7 +100,7 @@ private final ProviderRepository providerRepository;
     }
 */
 
-  /*      @DeleteMapping("/{providerId}")
+       @DeleteMapping("/{providerId}")
     public ResponseEntity<?> deleteProvider(@PathVariable Long providerId) {
         return providerRepository.findById(providerId).map(provider -> {
             providerRepository.delete(provider);
@@ -135,5 +135,5 @@ private final ProviderRepository providerRepository;
         return lp;
 
     }
-*/
+
 }
