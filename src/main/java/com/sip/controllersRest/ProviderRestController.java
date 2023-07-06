@@ -72,7 +72,7 @@ private final ProviderRepository providerRepository;
         providerRepository.save(provider);
         return provider;
     }
-   /* @PostMapping("/addwithlogo")
+    @PostMapping("/addwithlogo")
     public Provider addProviderUplaodImage(@RequestParam("imageLogo") MultipartFile file,
                                            @RequestParam("name") String name,
                                            @RequestParam("email") String email,
@@ -98,7 +98,7 @@ private final ProviderRepository providerRepository;
         providerRepository.save(provider);
         return provider;
     }
-*/
+
 
        @DeleteMapping("/{providerId}")
     public ResponseEntity<?> deleteProvider(@PathVariable Long providerId) {
